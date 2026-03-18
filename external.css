@@ -1,0 +1,33 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #a855f7;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px 0;
+    border: 2px solid #a855f7;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 20px;
+    font-style: italic;
+    color: lightgray;
+}
