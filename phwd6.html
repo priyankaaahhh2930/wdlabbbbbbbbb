@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI';
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            width: 400px;
+            margin: auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        fieldset {
+            border: 2px solid #a6c1ee;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 7px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .inline {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background: #a6c1ee;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #8faee0;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>✨ Seminar / Scholarship Form ✨</h2>
+
+<form>
+
+    <fieldset>
+        <legend>👤 Personal Details</legend>
+
+        Name:
+        <input type="text" name="name">
+
+        Email:
+        <input type="email" name="email">
+
+        Phone:
+        <input type="tel" name="phone">
+    </fieldset>
+
+    <fieldset>
+        <legend>⚧ Gender</legend>
+
+        <input type="radio" name="gender" class="inline"> Male
+        <input type="radio" name="gender" class="inline"> Female
+        <input type="radio" name="gender" class="inline"> Other
+    </fieldset>
+
+    <fieldset>
+        <legend>📚 Select Course</legend>
+
+        <select>
+            <option>Select</option>
+            <option>Web Development</option>
+            <option>AI & ML</option>
+            <option>Data Science</option>
+            <option>Cyber Security</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>💡 Skills</legend>
+
+        <input type="checkbox" class="inline"> HTML
+        <input type="checkbox" class="inline"> CSS
+        <input type="checkbox" class="inline"> JavaScript
+        <input type="checkbox" class="inline"> Python
+    </fieldset>
+
+    <input type="submit" value="Register 💖">
+
+</form>
+
+</body>
+</html>
